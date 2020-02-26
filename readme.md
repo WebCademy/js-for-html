@@ -1,6 +1,6 @@
 # Код с вебинара: JavaScript для верстальщика
 
-#### [Ссылка на запись вебинара](http://https://www.youtube.com/watch?v=EhEM0PtlJaA)
+#### [Ссылка на запись вебинара](https://youtu.be/EhEM0PtlJaA)
 
 **Рассмотрены примеры реализации:**
 
