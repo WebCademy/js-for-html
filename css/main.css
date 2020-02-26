@@ -1,0 +1,49 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.list-header {
+    font-weight: 700;
+}
+
+.list-content {
+    background-color: rgb(216, 246, 239);
+}
+
+.fade-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(8, 112, 32, 0.69);
+}
+
+.modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-hidden {
+    display: none;
+}
+
+.accordeon-body {
+    display: none;
+}
+
+.tab-content-hidden {
+    display: none;
+}
+
+.fade-block {
+    display: none;
+}
+
+.fade-block--visible {
+    display: block;
+}

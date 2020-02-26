@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS для верстальщика</title>
+        <link rel="stylesheet" href="libs/bootstrap.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+
+    <body>
+        <h1 class="mb-4">Табы</h1>
+
+        <ul class="list-group list-group-horizontal-xl mb-3">
+            <li class="list-group-item" data-tab="tab-1">Таб 1</li>
+            <li class="list-group-item" data-tab="tab-2">Таб 2</li>
+            <li class="list-group-item" data-tab="tab-3">Таб 3</li>
+        </ul>
+
+        <div class="card p-3 tab-content-hidden" data-tab-content id="tab-1">
+            <h3>Таб 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                ducimus fugit corrupti culpa libero quam mollitia magni
+                pariatur, quos soluta commodi porro voluptatem! Voluptate nobis
+                veniam voluptatum, quisquam et obcaecati?
+            </p>
+        </div>
+
+        <div class="card p-3 tab-content-hidden" data-tab-content id="tab-2">
+            <h3>Таб 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                ducimus fugit corrupti culpa libero quam mollitia magni
+                pariatur, quos soluta commodi porro voluptatem! Voluptate nobis
+                veniam voluptatum, quisquam et obcaecati?
+            </p>
+        </div>
+
+        <div class="card p-3 tab-content-hidden" data-tab-content id="tab-3">
+            <h3>Таб 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+                ducimus fugit corrupti culpa libero quam mollitia magni
+                pariatur, quos soluta commodi porro voluptatem! Voluptate nobis
+                veniam voluptatum, quisquam et obcaecati?
+            </p>
+        </div>
+
+        <script src="tabs.js"></script>
+    </body>
+</html>
